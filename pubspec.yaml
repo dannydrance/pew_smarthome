@@ -1,0 +1,25 @@
+name: pew_smarthome
+description: "PEW Smart Home - add, configure and control your Physician Electronics Workshop smart home devices."
+publish_to: 'none'
+version: 1.2.0+3
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.1.2
+  flutter_secure_storage: ^9.2.2
+  url_launcher: ^6.3.0
+  local_auth: ^2.3.0
+  flutter_local_notifications: ^17.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
